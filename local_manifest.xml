@@ -41,11 +41,6 @@
              remote="linux-on-droid" 
              revision="lindroid-21" />
 
-    <!-- System Repositories -->
-    <project name="android_system_extras" 
-         <?xml version="1.0" encoding="UTF-8"?>
-<manifest xmlns="http://www.google.com/intended/specs/manifest/1.0">
-
     <!-- Define remotes -->
     <remote name="nerdyy62"
             fetch="https://github.com/nerdyy62/" />
