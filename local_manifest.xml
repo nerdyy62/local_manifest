@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.google.com/intended/specs/manifest/1.0">
+
+    <!-- Define remotes -->
+    <remote name="nerdyy62"
+            fetch="https://github.com/nerdyy62/" />
+    <remote name="linux-on-droid"
+            fetch="https://github.com/Linux-on-droid/" />
+    <remote name="yaap"
+            fetch="https://github.com/yaap/" />
+
+    <!-- Hardware Repositories -->
+    <project name="hardware_xiaomi" 
+             path="hardware/xiaomi" 
+             remote="yaap" 
+             revision="fourteen" />
+
+    <!-- Device Repositories -->
+    <project name="device_xiaomi_laurel_sprout" 
+             path="device/xiaomi/laurel_sprout" 
+             remote="nerdyy62" 
+             revision="lindroid-21" />
+
+    <!-- Kernel Repositories -->
+    <project name="kernel_xiaomi_laurel_sprout" 
+             path="kernel/xiaomi/laurel_sprout" 
+             remote="nerdyy62" 
+             revision="lindroid-21" />
+
+    <!-- Vendor Repositories -->
+    <project name="vendor_xiaomi_laurel_sprout" 
+             path="vendor/xiaomi/laurel_sprout" 
+             remote="nerdyy62" 
+             revision="lindroid-21" />
+    <project name="vendor_lindroid" 
+             path="vendor/lindroid" 
+             remote="linux-on-droid" 
+             revision="lindroid-21" />
+    <project name="vendor_extra" 
+             path="vendor/extra" 
+             remote="linux-on-droid" 
+             revision="lindroid-21" />
+
+    <!-- System Repositories -->
+    <project name="android_system_extras" 
+             path="system/extras" 
+             remote="nerdyy62" 
+             revision="lindroid-21" />
+
+    <!-- Framework Repositories -->
+    <project name="android_frameworks_native" 
+             path="frameworks/native" 
+             remote="nerdyy62" 
+             revision="lindroid-21" />
+    <project name="android_frameworks_base" 
+             path="frameworks/base" 
+             remote="nerdyy62" 
+             revision="lindroid-21" />
+
+    <!-- External Repositories -->
+    <project name="external_lxc" 
+             path="external/lxc" 
+             remote="linux-on-droid" 
+             revision="lindroid-21" />
+
+    <!-- Root Repository -->
+    <project name="libhybris" 
+             path="libhybris" 
+             remote="linux-on-droid" 
+             revision="lindroid-21" />
+
+</manifest>
