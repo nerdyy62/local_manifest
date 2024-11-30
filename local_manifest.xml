@@ -41,16 +41,6 @@
              remote="linux-on-droid" 
              revision="lindroid-21" />
 
-    <!-- Framework Repositories -->
-    <project name="android_frameworks_native" 
-             path="frameworks/native" 
-             remote="nerdyy62" 
-             revision="lindroid-21" />
-    <project name="android_frameworks_base" 
-             path="frameworks/base" 
-             remote="nerdyy62" 
-             revision="lindroid-21" />
-
     <!-- External Repositories -->
     <project name="external_lxc" 
              path="external/lxc" 
