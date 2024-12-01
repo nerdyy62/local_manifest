@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns="http://www.google.com/intended/specs/manifest/1.0">
 
+    <!-- Remove existing projects -->
+    <remove-project name="platform/system/extras" />
+    <remove-project name="platform/frameworks/native" />
+    <remove-project name="platform/frameworks/base" />
+
     <!-- Define remotes -->
     <remote name="nerdyy62"
             fetch="https://github.com/nerdyy62/" />
@@ -39,6 +44,22 @@
     <project name="vendor_extra" 
              path="vendor/extra" 
              remote="linux-on-droid" 
+             revision="lindroid-21" />
+
+    <!-- System Repositories -->
+    <project name="android_system_extras" 
+             path="system/extras" 
+             remote="nerdyy62" 
+             revision="lindroid-21" />
+
+    <!-- Framework Repositories -->
+    <project name="android_frameworks_native" 
+             path="frameworks/native" 
+             remote="nerdyy62" 
+             revision="lindroid-21" />
+    <project name="android_frameworks_base" 
+             path="frameworks/base" 
+             remote="nerdyy62" 
              revision="lindroid-21" />
 
     <!-- External Repositories -->
